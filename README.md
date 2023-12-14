@@ -1,4 +1,4 @@
-# HP-PrnStatus-DOS (CVE-2023-XXXXX)
+# HP-PrnStatus-DOS (CVE-2023-4694)
 
 ## Summary
 This is a simple POC for a DOS vulnerability that has been found to affect HP OfficeJet and HP LaserJet printers. This has been confirmed to impact multiple hardware models and multiple firmware versions for these models.
@@ -40,7 +40,10 @@ Note: The one FutureSmart firmware model tested did _not_ appear to have this vu
 * 8/8/2023 - Successfully made contact with HP's PSIRT and began knowledge transfer.
 * 8/30/2023 - HP PSIRT successfully reproduced the issue on multiple, specific printer models and began developing a fix.
 * 11/14/2023 - HP PSIRT was able to confirm that updated firmware was available and released for affected devices. Confirmed POC no longer functions.
-* XX/XX/2023 - Coordinated disclosure with HP PSIRT
+* 12/14/2023 - Coordinated disclosure with HP PSIRT.
+
+## Links
+* HP Security Bulletin: https://support.hp.com/us-en/document/ish_9823639-9823677-16
 
 ## Footnote
 I would like to offer my sincere appreciation and thanks to HP's PSIRT for their professionalism and thoroughness while we worked together on this. This was a new process for me and their team made it very easy for me to collaborate with them and achieve a positive result.
